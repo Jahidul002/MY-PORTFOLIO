@@ -1,15 +1,34 @@
-body{
+body {
     font-family: 'Finlandica', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-.name{
+
+.name {
     color: rgb(231, 86, 34);
 }
-.hire{
-    font-size: 25px;
-    background-color: orangered;
-    border: 4px solid red;
-    margin: 50px solid red;
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: ;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.hire {
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: aliceblue;
+    background-image: linear-gradient(rgba(238, 56, 56, 0.788), orange);
 }
