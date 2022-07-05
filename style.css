@@ -1,6 +1,6 @@
 body {
     font-family: 'Finlandica', sans-serif;
-    background-color: rgb(230, 173, 173);
+    margin: 0%;
 }
 
 h1 {
@@ -47,4 +47,29 @@ h1 {
 
 .r-brdr {
     border-left: 5px solid blue;
+}
+
+.banner {
+    background-image: url(pic/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.drm-bannr {
+    background-image: url(pic/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exp-bnnr {
+    background-image: url(pic/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.adjst1 {
+    margin-left: 40px;
+}
+
+.adjst2 {
+    margin: 60px;
 }
