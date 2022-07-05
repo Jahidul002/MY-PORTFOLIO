@@ -1,5 +1,6 @@
 body {
     font-family: 'Finlandica', sans-serif;
+    background-color: rgb(230, 173, 173);
 }
 
 h1 {
@@ -10,7 +11,7 @@ h1 {
     color: rgb(231, 86, 34);
 }
 
-section {
+.flex {
     display: flex;
 }
 
@@ -31,4 +32,12 @@ section {
     font-weight: 700;
     color: aliceblue;
     background-image: linear-gradient(rgba(238, 56, 56, 0.788), orange);
+}
+
+.shadow {
+    box-shadow: 10px 5px 5px black;
+}
+
+.b-paddin {
+    padding-left: 50px;
 }
