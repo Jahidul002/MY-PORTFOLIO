@@ -13,6 +13,8 @@ h1 {
 
 .flex {
     display: flex;
+    flex-direction: row;
+    padding-right: 30px;
 }
 
 .half-width {
@@ -22,6 +24,11 @@ h1 {
 
 .half-width img {
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 150;
+    justify-items: center;
+    background-size: cover;
 }
 
 .hire {
@@ -72,4 +79,14 @@ h1 {
 
 .adjst2 {
     margin: 60px;
+}
+
+.txt {
+    color: gray;
+    font-weight: 800;
+}
+
+.be {
+    color: brown;
+    font-size: 30px;
 }
